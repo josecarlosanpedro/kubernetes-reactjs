@@ -1,1 +1,1 @@
-export const apiEndpoint = "http://josecarlosanpedrokubernetesnodejs.default.svc.cluster.local";
+export const apiEndpoint = "http://josecarlosanpedrokubernetesnodejs.svc.cluster.local";
