@@ -1,13 +1,22 @@
-apiVersion : apps/v1beta1
+apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: josecarlosanpedrokubernetesreactjs 
+  name: josecarlosanpedrokubernetesreactjs-deploy
+  labels:
+    name: josecarlosanpedrokubernetesreactjs-deploy
+    app: josecarlosanpedrokubernetesreactjs
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      name: josecarlosanpedrokubernetesreactjs-pod
+      app: josecarlosanpedrokubernetesreactjs
   template:
     metadata:
+      name: josecarlosanpedrokubernetesreactjs-pod
       labels:
-        app: josecarlosanpedrokubernetesreactjs 
+        name: josecarlosanpedrokubernetesreactjs-pod
+        app: josecarlosanpedrokubernetesreactjs
     spec:
       containers:
         - name: josecarlosanpedrokubernetesreactjs 
