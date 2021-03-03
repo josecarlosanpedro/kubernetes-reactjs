@@ -9,3 +9,14 @@
     float: right
   }
 }
+
+.Layout-section {
+  img {
+    padding: 20px;
+  }
+  .ant-layout-sider,
+  .ant-menu-dark,
+  .ant-layout-sider-trigger {
+    background: #4a7ebb
+  }
+}

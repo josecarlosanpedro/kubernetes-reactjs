@@ -1,0 +1,28 @@
+.home-section {
+    padding: 40px;
+    padding-top: 100px;
+    .login-btn {
+        height: 60px;
+        width: 100%;
+    }
+    .btn-row .ant-col{
+        padding:5px
+    }
+  }
+  
+.Dashboard-section {
+
+    .minimizetest {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Dashboard-section {
+
+        .minimizetest {
+            display: block !important
+        }
+    }
+  }
+  

@@ -2,3 +2,29 @@
 @import './Login/index';
 @import './Register/index';
 @import './AddedList/index';
+@import './Home/index';
+
+.MD-registration-section{
+    padding:20px;
+    img {
+      max-width: 500px;
+      max-height: 130px;
+    }
+    .ant-col {
+        padding: 10px;
+    }
+    .PRC-Details {
+       
+        .ant-input,
+        .ant-calendar-picker {
+            width: 100% !important;
+        }
+    }
+    .action-btn {
+        clear: both;
+    }
+    .action-btn .ant-btn {
+        min-width: 100px;
+        min-height: 50px;
+    }
+}
